@@ -71,7 +71,7 @@ export default class App extends Component {
     event.preventDefault();
     this.state.steps.forEach(step => {
       step.fields.forEach(field => {
-        if (field.value && field.isValid) { console.log(`${field.name}: ${App.ucFirstWord(field.value)}`) }
+        if (field.value && field.isValid) { console.log(`${App.ucFirstWord(field.name)}: ${field.value}`) }
       })
     });
     alert('Thank You');
