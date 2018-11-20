@@ -21,7 +21,7 @@ export default class Input extends Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    return this.state.value !== nextState.value;
+    return this.state.value !== nextState.value || this.state.errorMsg !== nextState.errorMsg;
   }
 
   handleChange(event) {

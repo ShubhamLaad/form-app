@@ -6,6 +6,9 @@ In the project directory, you can run:
 Clone the repo
 `cd form-app`
 
+### System should have
+node and npm
+
 ### `npm install`
 Install all dependency
 
