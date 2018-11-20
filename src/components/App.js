@@ -75,7 +75,6 @@ export default class App extends Component {
       })
     });
     alert('Thank You');
-    this.setState({ activeIndex: 0 });
   }
 
   render() {
